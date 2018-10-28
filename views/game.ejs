@@ -2,7 +2,7 @@
 <header>
     <h1>Tic Tac Toe</h1>
   </header>
-  
+  <body>
           <FORM NAME="tic" method="post">
           <INPUT TYPE="button" NAME="sqr1" class="tictac" value=" " onClick="if(document.tic.sqr1.value == ' ' && turn == 0 && mode == 1) {document.tic.sqr1.value = ' X '; sqr1T = 1; turn = 1; vari(); check();} else if(document.tic.sqr1.value == ' ' && turn == 1 && mode == 2) {document.tic.sqr1.value = ' X '; sqr1T = 1; turn = 0; vari(); player1Check()} else if(document.tic.sqr1.value == ' ' && turn == 0 && mode == 2) {document.tic.sqr1.value = ' O '; sqr1T = 1; turn = 1; vari(); player1Check()} drawCheck()">
           <INPUT TYPE="button" NAME="sqr2" class="tictac" value=" " onClick="if(document.tic.sqr2.value == ' ' && turn == 0 && mode == 1) {document.tic.sqr2.value = ' X '; sqr2T = 1; turn = 1; vari(); check();} else if(document.tic.sqr2.value == ' ' && turn == 1 && mode == 2) {document.tic.sqr2.value = ' X '; sqr2T = 1; turn = 0; vari(); player1Check()} else if(document.tic.sqr2.value == ' ' && turn == 0 && mode == 2) {document.tic.sqr2.value = ' O '; sqr2T = 1; turn = 1; vari(); player1Check()} drawCheck()">
@@ -16,8 +16,6 @@
           </form>
           <script src ="js/game.js" ></script>
           <script src='https://code.jquery.com/jquery-1.7.2.min.js'></script>
-
-  
-
+         </body>
    <% include footer %>
    

@@ -1,4 +1,3 @@
-// JavaScript Document
 $(document).ready(function() {
   var x = "x"
   var o = "o"
@@ -81,8 +80,6 @@ $(document).ready(function() {
   
     });
   });
-
-  <script src='https://code.jquery.com/jquery-1.7.2.min.js'></script>
 
   
 
