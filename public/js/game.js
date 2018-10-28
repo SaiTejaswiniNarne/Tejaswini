@@ -65,10 +65,9 @@ $(document).ready(function() {
          count = 0
          x_win++
          $('#x_win').text(x_win)
-            }
-      }
-    
-       });
+      }   
+    }
+  });
         $("#reset").click(function () {
         $("#game li").text("+");
         $("#game li").removeClass('disable')
