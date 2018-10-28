@@ -77,7 +77,6 @@ $(document).ready(function() {
         $("#game li").removeClass('btn-primary')
         $("#game li").removeClass('btn-info')
         count = 0
-    
       });
     });
     
